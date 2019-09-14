@@ -1,0 +1,255 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+.logo_h1 {
+  margin: 0;
+}
+section{
+  overflow: hidden;
+}
+#main-header {
+  background-color: rgb(201, 47, 47);
+  padding: 30px auto;
+}
+#main-header .row {
+  height: 100px;
+}
+#navbar {
+  text-transform: uppercase;
+}
+#navbar li {
+ display: inline;
+ padding-right: 20px;
+ list-style: none;
+}
+#navbar a {
+  text-decoration: none;
+}
+#navbar li.current a, #navbar a:hover{
+  color: yellow;
+  border-bottom: 2px solid yellow;
+  padding-bottom: 2px;
+}
+#navbar li a{
+  color: #fff;
+}
+.dropdown-content {
+  display: none;
+}
+#showcase {
+  background: url("../images/policeyskiy-razgromi.jpg");
+  margin-bottom: 20px;
+}
+#showcase .row {
+  height: 600px;
+}
+#showcase h2 {
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+#showcase p {
+  margin: 0;
+  font-size: 20px;
+}
+.showcase_content {
+  background:yellow;
+  color: black;
+  border-radius: 90px;
+  padding: 40px;
+  opacity: 0.9;
+}
+.features_bgimage{
+  margin-top: -20px;
+  background: url("../images/191385.jpg") center center ;
+  color: black;
+  opacity: 0.9;
+}
+#features h2{
+  font-size: 35px;
+  
+  padding-bottom: 10px;
+}
+#features p{
+  color: black;
+  margin: 0;
+  margin-bottom: 10px;
+}
+#features .fa{
+  font-size: 40px;
+  color: red;
+}
+#info {
+  color: black;
+  padding: 30px;
+}
+#info h3{
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+#info ul{
+  list-style: none;
+  padding: 0;
+}
+#info li{
+  line-height: 2em;
+  font-size: 20px;
+}
+#info .fa{
+  color: yellow;
+}
+#company{
+  background-color: #1f1f1f;
+  padding: 15px 0;
+}
+#company h4{
+  text-transform: uppercase;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border-bottom-color: #fff;
+}
+#company a{
+  text-decoration: none;
+  padding: 0;
+  line-height: 1.5em;
+  color: #ccc;
+}
+
+ 
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+  #showcase h2 {
+    font-size: 30px;
+  }
+}
+@media(max-width:800px){
+  #main-header .row{
+    height: auto;
+  }
+}
+@media(max-width:500px){
+  #showcase .showcase_content{
+    padding: 30px 10px;
+  }
+}
+
+
+
+
+
+
+
+/*
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/mcdonald.jpg);
+	background-size: cover;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #0007;
+    line-height: 70px;
+}
+nav ul {
+    float: right;
+    margin-right: 30px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s;
+}
+nav ul li:hover:not(.active){
+    background-color: lightcoral;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+}
+.active a {
+    background-color: rgb(233, 233, 52);
+    color: rgb(0, 0, 0);
+}
+.slideshow-container {
+    max-width: 1300px;
+    position: relative;
+    margin: auto;
+  }
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active {
+    background-color: #110a0a;
+  }
+  section {
+      background-color: #0f0606;
+  }
+  */
+  
